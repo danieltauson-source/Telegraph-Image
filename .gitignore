@@ -1,4 +1,14 @@
-node_modules/.bin/*
-node_modules/.mf/*
-.wrangler/*
-data/*
+# Зависимости
+node_modules/
+node_modules/**/*
+
+# Wrangler
+.wrangler/
+.wrangler/**/*
+
+# Данные
+data/
+data/**/*
+
+# Системные файлы
+.DS_Store
